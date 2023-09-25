@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster+Two&display=swap');
+body{
+    background: linear-gradient(90deg, #1500ff 0%, #ff00ff 50%, #00fbff 100%);
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+body p {
+    font-size: 16pt;
+}
+img{
+    width: 50%;
+    height: 50%;
+}

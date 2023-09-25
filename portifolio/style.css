@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster+Two&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(90deg, #00ffea 0%, #ff00ff 100%);
+    color: white;
+    text-align: center;
+    font-size: 16pt;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+#menu{
+    background-color: #222;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: border bottom 1s;
+}
+#menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#menu ul li{
+    display: inline;
+    margin:0 20px;
+    font-size: 20pt;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    transition: color 0.3s ease;
+    font-size: 20pt;
+}
+#menu ul li a:hover{
+    color:#00ced1;
+    background-color: #222;
+    border-bottom: 0.5em solid #00ced1;
+}
+h1{
+    margin: 20px 0;
+    font-size: 24px;
+}
+p{
+    line-height:1.5;
+}
+.container img{
+    width: 100%;
+    max-width:400px;
+    height: auto;
+    border: 4px solid transparent;
+    transform: 0.3 ease, border-color 0.3 ease;
+    border-radius: 15px;
+}
+.container img:hover{
+    transform:scale(1.1);
+    border-color: #00ced1;
+}
+h1{
+    font-size: 25pt;
+}
